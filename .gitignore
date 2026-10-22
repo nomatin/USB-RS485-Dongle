@@ -1,0 +1,25 @@
+# Altium local history, recovery files and previews
+History/
+__History/
+__Previews/
+*.SchDocPreview
+*.PcbDocPreview
+*.bak
+*.Backup
+*.~*
+~$*
+
+# Altium workspace state and generated project files
+*.PrjPcbStructure
+*.PrjPcbLogs
+*.DsnWrk
+*.lck
+*.lock
+
+# Generated Altium outputs (keep source documents and OutJob files)
+Project Outputs*/
+Project Logs*/
+
+# Windows metadata
+Thumbs.db
+Desktop.ini
