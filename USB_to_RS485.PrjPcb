@@ -162,216 +162,216 @@ DocumentPath=OUTPUT\КД\USB_to_RS486.html
 DItemRevisionGUID=
 
 [Parameter1]
-Name=п_Утв_Р
-Value=Лыткин
+Name=sheet_out_name
+Value=Преобразователь USB–RS485 XXXX.426477.001 Э3
 
 [Parameter2]
-Name=п_Утв
-Value= 
+Name=Вид_документа
+Value=
 
 [Parameter3]
-Name=п_Т_Контр
+Name=Вид_документа_PCB
 Value=
 
 [Parameter4]
-Name=п_Разраб_Р
-Value=Иванов
+Name=Вид_документа_SCH
+Value=Схема электрическая принципиальная
 
 [Parameter5]
-Name=п_Разраб
+Name=Дата_изменения
 Value=
 
 [Parameter6]
-Name=п_Пров_Р
-Value=Смирнов
+Name=Дата_изменения_ВП
+Value=
 
 [Parameter7]
-Name=п_Пров
+Name=Дата_изменения_ПЭ3
 Value=
 
 [Parameter8]
-Name=п_Н_контр_Р
-Value=Попов
+Name=Дата_изменения_СП
+Value=
 
 [Parameter9]
-Name=п_Н_контр
+Name=Код_документа
 Value=
 
 [Parameter10]
-Name=п_Доп_графа_Р
+Name=Код_документа_PCB
 Value=
 
 [Parameter11]
-Name=п_Доп_графа
-Value=
+Name=Код_документа_SCH
+Value=Э3
 
 [Parameter12]
-Name=Характер_работы
+Name=Литера
 Value=
 
 [Parameter13]
-Name=Формат_PCB
+Name=Литера2
 Value=
 
 [Parameter14]
-Name=Указания_изменение_СП
+Name=Литера3
 Value=
 
 [Parameter15]
-Name=Указания_изменение_ПЭ3
-Value=
+Name=Наименование
+Value=Преобразователь USB–RS485
 
 [Parameter16]
-Name=Указания_изменение_ВП
-Value=
+Name=Наименование1
+Value=Преобразователь USB–RS485
 
 [Parameter17]
-Name=Указания_изменение
+Name=Наименование2
 Value=
 
 [Parameter18]
-Name=Раздел_SCH
+Name=Наименование3
 Value=
 
 [Parameter19]
-Name=Раздел_PCB
+Name=Наименование_PCB
 Value=
 
 [Parameter20]
-Name=Раздел
-Value=Документация
+Name=Номер_документа_изменение
+Value=
 
 [Parameter21]
-Name=Проект
+Name=Номер_документа_изменение_ВП
 Value=
 
 [Parameter22]
-Name=Порядковый_номер_изменения_СП
+Name=Номер_документа_изменение_ПЭ3
 Value=
 
 [Parameter23]
-Name=Порядковый_номер_изменения_ПЭ3
+Name=Номер_документа_изменение_СП
 Value=
 
 [Parameter24]
-Name=Порядковый_номер_изменения_ВП
-Value=
+Name=Обозначение
+Value=XXXX.426477.001
 
 [Parameter25]
-Name=Порядковый_номер_изменения
+Name=Обозначение_PCB
 Value=
 
 [Parameter26]
-Name=ПервПримен
-Value=XXXX.426477.001
+Name=Обозначение_Код
+Value=XXXX.426477.001 Э3
 
 [Parameter27]
 Name=Перв.Примен.
 Value=XXXX.426477.001
 
 [Parameter28]
-Name=Обозначение_Код
-Value=XXXX.426477.001 Э3
+Name=ПервПримен
+Value=XXXX.426477.001
 
 [Parameter29]
-Name=Обозначение_PCB
+Name=Порядковый_номер_изменения
 Value=
 
 [Parameter30]
-Name=Обозначение
-Value=XXXX.426477.001
+Name=Порядковый_номер_изменения_ВП
+Value=
 
 [Parameter31]
-Name=Номер_документа_изменение_СП
+Name=Порядковый_номер_изменения_ПЭ3
 Value=
 
 [Parameter32]
-Name=Номер_документа_изменение_ПЭ3
+Name=Порядковый_номер_изменения_СП
 Value=
 
 [Parameter33]
-Name=Номер_документа_изменение_ВП
+Name=Проект
 Value=
 
 [Parameter34]
-Name=Номер_документа_изменение
-Value=
+Name=Раздел
+Value=Документация
 
 [Parameter35]
-Name=Наименование_PCB
+Name=Раздел_PCB
 Value=
 
 [Parameter36]
-Name=Наименование3
+Name=Раздел_SCH
 Value=
 
 [Parameter37]
-Name=Наименование2
+Name=Указания_изменение
 Value=
 
 [Parameter38]
-Name=Наименование1
-Value=Преобразователь USB–RS485
+Name=Указания_изменение_ВП
+Value=
 
 [Parameter39]
-Name=Наименование
-Value=Преобразователь USB–RS485
+Name=Указания_изменение_ПЭ3
+Value=
 
 [Parameter40]
-Name=Литера3
+Name=Указания_изменение_СП
 Value=
 
 [Parameter41]
-Name=Литера2
+Name=Формат_PCB
 Value=
 
 [Parameter42]
-Name=Литера
+Name=Характер_работы
 Value=
 
 [Parameter43]
-Name=Код_документа_SCH
-Value=Э3
+Name=п_Доп_графа
+Value=
 
 [Parameter44]
-Name=Код_документа_PCB
+Name=п_Доп_графа_Р
 Value=
 
 [Parameter45]
-Name=Код_документа
+Name=п_Н_контр
 Value=
 
 [Parameter46]
-Name=Дата_изменения_СП
-Value=
+Name=п_Н_контр_Р
+Value=Попов
 
 [Parameter47]
-Name=Дата_изменения_ПЭ3
+Name=п_Пров
 Value=
 
 [Parameter48]
-Name=Дата_изменения_ВП
-Value=
+Name=п_Пров_Р
+Value=Смирнов
 
 [Parameter49]
-Name=Дата_изменения
+Name=п_Разраб
 Value=
 
 [Parameter50]
-Name=Вид_документа_SCH
-Value=Схема электрическая принципиальная
+Name=п_Разраб_Р
+Value=Иванов
 
 [Parameter51]
-Name=Вид_документа_PCB
+Name=п_Т_Контр
 Value=
 
 [Parameter52]
-Name=Вид_документа
+Name=п_Утв
 Value=
 
 [Parameter53]
-Name=sheet_out_name
-Value=Преобразователь USB–RS485 XXXX.426477.001 Э3
+Name=п_Утв_Р
+Value=Лыткин
 
 [Configuration1]
 Name=Sources
