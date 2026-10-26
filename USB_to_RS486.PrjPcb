@@ -1,6 +1,6 @@
 ﻿[Design]
 Version=1.0
-HierarchyMode=0
+HierarchyMode=4
 ChannelRoomNamingStyle=0
 ReleasesFolder=
 ChannelDesignatorFormatString=$Component_$RoomName
@@ -58,7 +58,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=0
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -75,7 +75,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -92,7 +92,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=2
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -101,6 +101,218 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QAQBARVM
+
+[Parameter1]
+Name=п_Утв_Р
+Value=Лыткин
+
+[Parameter2]
+Name=п_Утв
+Value= 
+
+[Parameter3]
+Name=п_Т_Контр
+Value=
+
+[Parameter4]
+Name=п_Разраб_Р
+Value=Иванов
+
+[Parameter5]
+Name=п_Разраб
+Value=
+
+[Parameter6]
+Name=п_Пров_Р
+Value=Смирнов
+
+[Parameter7]
+Name=п_Пров
+Value=
+
+[Parameter8]
+Name=п_Н_контр_Р
+Value=Попов
+
+[Parameter9]
+Name=п_Н_контр
+Value=
+
+[Parameter10]
+Name=п_Доп_графа_Р
+Value=
+
+[Parameter11]
+Name=п_Доп_графа
+Value=
+
+[Parameter12]
+Name=Характер_работы
+Value=
+
+[Parameter13]
+Name=Формат_PCB
+Value=
+
+[Parameter14]
+Name=Указания_изменение_СП
+Value=
+
+[Parameter15]
+Name=Указания_изменение_ПЭ3
+Value=
+
+[Parameter16]
+Name=Указания_изменение_ВП
+Value=
+
+[Parameter17]
+Name=Указания_изменение
+Value=
+
+[Parameter18]
+Name=Раздел_SCH
+Value=
+
+[Parameter19]
+Name=Раздел_PCB
+Value=
+
+[Parameter20]
+Name=Раздел
+Value=Документация
+
+[Parameter21]
+Name=Проект
+Value=
+
+[Parameter22]
+Name=Порядковый_номер_изменения_СП
+Value=
+
+[Parameter23]
+Name=Порядковый_номер_изменения_ПЭ3
+Value=
+
+[Parameter24]
+Name=Порядковый_номер_изменения_ВП
+Value=
+
+[Parameter25]
+Name=Порядковый_номер_изменения
+Value=
+
+[Parameter26]
+Name=ПервПримен
+Value=XXXX.426477.001
+
+[Parameter27]
+Name=Перв.Примен.
+Value=XXXX.426477.001
+
+[Parameter28]
+Name=Обозначение_Код
+Value=XXXX.426477.001 Э3
+
+[Parameter29]
+Name=Обозначение_PCB
+Value=
+
+[Parameter30]
+Name=Обозначение
+Value=XXXX.426477.001
+
+[Parameter31]
+Name=Номер_документа_изменение_СП
+Value=
+
+[Parameter32]
+Name=Номер_документа_изменение_ПЭ3
+Value=
+
+[Parameter33]
+Name=Номер_документа_изменение_ВП
+Value=
+
+[Parameter34]
+Name=Номер_документа_изменение
+Value=
+
+[Parameter35]
+Name=Наименование_PCB
+Value=
+
+[Parameter36]
+Name=Наименование3
+Value=
+
+[Parameter37]
+Name=Наименование2
+Value=
+
+[Parameter38]
+Name=Наименование1
+Value=Преобразователь USB–RS485
+
+[Parameter39]
+Name=Наименование
+Value=Преобразователь USB–RS485
+
+[Parameter40]
+Name=Литера3
+Value=
+
+[Parameter41]
+Name=Литера2
+Value=
+
+[Parameter42]
+Name=Литера
+Value=
+
+[Parameter43]
+Name=Код_документа_SCH
+Value=Э3
+
+[Parameter44]
+Name=Код_документа_PCB
+Value=
+
+[Parameter45]
+Name=Код_документа
+Value=
+
+[Parameter46]
+Name=Дата_изменения_СП
+Value=
+
+[Parameter47]
+Name=Дата_изменения_ПЭ3
+Value=
+
+[Parameter48]
+Name=Дата_изменения_ВП
+Value=
+
+[Parameter49]
+Name=Дата_изменения
+Value=
+
+[Parameter50]
+Name=Вид_документа_SCH
+Value=Схема электрическая принципиальная
+
+[Parameter51]
+Name=Вид_документа_PCB
+Value=
+
+[Parameter52]
+Name=Вид_документа
+Value=
+
+[Parameter53]
+Name=sheet_out_name
+Value=Преобразователь USB–RS485 XXXX.426477.001 Э3
 
 [Configuration1]
 Name=Sources
@@ -111,6 +323,44 @@ Variant=[No Variations]
 OutputJobsCount=0
 ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
 ConfigurationType=Source
+
+[Generic_SmartPDF]
+AutoOpenFile=0
+AutoOpenOutJob=-1
+
+[Generic_SmartPDFSettings]
+ProjectMode=-1
+ZoomPrecision=50
+AddNetsInformation=-1
+AddNetPins=-1
+AddNetNetLabels=-1
+AddNetPorts=-1
+ShowComponentParameters=-1
+GlobalBookmarks=0
+ExportBOM=0
+TemplateFilename=
+TemplateStoreRelative=-1
+PCB_PrintColor=1
+SCH_PrintColor=0
+PrintQuality=-3
+SCH_ShowNoErc=-1
+SCH_ShowParameter=-1
+SCH_ShowProbes=-1
+SCH_ShowBlankets=-1
+SCH_NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle
+SCH_ShowNote=-1
+SCH_ShowNoteCollapsed=-1
+Wir_PrintColor=0
+Ldr_PrintColor=0
+SCH_ExpandLogicalToPhysical=0
+SCH_VariantName=[No Variations]
+SCH_ExpandComponentDesignators=-1
+SCH_ExpandNetlabels=0
+SCH_ExpandPorts=0
+SCH_ExpandSheetNumber=0
+SCH_ExpandDocumentNumber=0
+SCH_HasExpandLogicalToPhysicalSheets=-1
+SaveSettingsToOutJob=0
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -527,86 +777,56 @@ Name=Export Outputs
 Description=
 TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=Ansoft Neutral
-OutputName1=Ansoft Neutral (AutoPCB)
+OutputType1=AutoCAD dwg/dxf PCB
+OutputName1=AutoCAD dwg/dxf File PCB
 OutputDocumentPath1=
 OutputVariantName1=
 OutputDefault1=0
-OutputType2=AutoCAD dwg/dxf PCB
-OutputName2=AutoCAD dwg/dxf File PCB
+OutputType2=AutoCAD dwg/dxf Schematic
+OutputName2=AutoCAD dwg/dxf File Schematic
 OutputDocumentPath2=
 OutputVariantName2=
 OutputDefault2=0
-OutputType3=AutoCAD dwg/dxf Schematic
-OutputName3=AutoCAD dwg/dxf File Schematic
+OutputType3=ExportIDF
+OutputName3=Export IDF
 OutputDocumentPath3=
 OutputVariantName3=
 OutputDefault3=0
-OutputType4=ExportIDF
-OutputName4=Export IDF
+OutputType4=ExportPARASOLID
+OutputName4=Export PARASOLID
 OutputDocumentPath4=
-OutputVariantName4=
+OutputVariantName4=[No Variations]
 OutputDefault4=0
-OutputType5=ExportPARASOLID
-OutputName5=Export PARASOLID
+OutputType5=ExportSTEP
+OutputName5=Export STEP
 OutputDocumentPath5=
 OutputVariantName5=[No Variations]
 OutputDefault5=0
-OutputType6=ExportSTEP
-OutputName6=Export STEP
+OutputType6=ExportVRML
+OutputName6=Export VRML
 OutputDocumentPath6=
 OutputVariantName6=[No Variations]
 OutputDefault6=0
-OutputType7=ExportVRML
-OutputName7=Export VRML
+OutputType7=Save As/Export PCB
+OutputName7=Save As/Export PCB
 OutputDocumentPath7=
-OutputVariantName7=[No Variations]
+OutputVariantName7=
 OutputDefault7=0
-OutputType8=HyperLynx
-OutputName8=HyperLynx (AutoPCB)
+OutputType8=Save As/Export Schematic
+OutputName8=Save As/Export Schematic
 OutputDocumentPath8=
 OutputVariantName8=
 OutputDefault8=0
-OutputType9=Orcad v7 Capture Design
-OutputName9=Orcad v7 Capture Design (AutoSCH)
+OutputType9=Specctra Design PCB
+OutputName9=Specctra Design PCB
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
-OutputType10=P-CAD ASCII
-OutputName10=P-CAD ASCII (AutoPCB)
+OutputType10=Web ReviewOutputName
+OutputName10=Web Review Data
 OutputDocumentPath10=
 OutputVariantName10=
 OutputDefault10=0
-OutputType11=P-CAD V16 Schematic Design
-OutputName11=P-CAD V16 Schematic Design (AutoSCH)
-OutputDocumentPath11=
-OutputVariantName11=
-OutputDefault11=0
-OutputType12=Save As/Export PCB
-OutputName12=Save As/Export PCB
-OutputDocumentPath12=
-OutputVariantName12=
-OutputDefault12=0
-OutputType13=Save As/Export Schematic
-OutputName13=Save As/Export Schematic
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-OutputType14=SiSoft
-OutputName14=SiSoft (AutoPCB)
-OutputDocumentPath14=
-OutputVariantName14=
-OutputDefault14=0
-OutputType15=Specctra Design PCB
-OutputName15=Specctra Design PCB
-OutputDocumentPath15=
-OutputVariantName15=
-OutputDefault15=0
-OutputType16=Web ReviewOutputName
-OutputName16=Web Review Data
-OutputDocumentPath16=
-OutputVariantName16=
-OutputDefault16=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
@@ -849,7 +1069,7 @@ Type10=1
 Type11=2
 Type12=2
 Type13=2
-Type14=1
+Type14=0
 Type15=1
 Type16=1
 Type17=1
@@ -992,25 +1212,25 @@ Type153=1
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
-L2=NNWNNNNWWWNWNWNWN
-L3=NWEENEEEENEWNEEWN
+L2=NNWNNNNWNWNWNWNWN
+L3=NWEENEEEENNWNENWN
 L4=NNENNNWEENNWNENWN
 L5=NNNNNNNNNNNNNNNNN
 L6=NNENNNNEENNWNENWN
 L7=NNEWNNWEENNWNENWN
-L8=NWEENEENEEENNEENN
-L9=NWEENEEEENEWNEEWW
-L10=NWNNNNNENNEWNNEWN
-L11=NNENNNNEEENWNENWN
+L8=NWEENEENNNENNEENN
+L9=NNEENEENENEWNEEWW
+L10=NWNNNNNNNNEWNNEWN
+L11=NNNNNNNEEENWNENWN
 L12=WWWWNWWNWWWNWWWNN
 L13=NNNNNNNNNNNWNNNWW
 L14=NWEENEEEENEWNEEWW
-L15=NNENNNNEEENWNENWW
+L15=NNNNNNNEEENWNENWW
 L16=WWWWNWWNWWWNWWWNW
 L17=WNNNNNNNWNNNWWWWN
 
 [Annotate]
-SortOrder=3
+SortOrder=1
 SortLocation=0
 ReplaceSubparts=0
 MatchParameter1=Comment
@@ -1035,6 +1255,132 @@ SelectedOnly=0
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
+ComponentLibIdentifierKind0=Library Name And Type
+ComponentLibraryIdentifier0=MY_LIB.DbLib/Конденсаторы$
+ComponentDesignItemID0=C0126
+ComponentSymbolReference0=C
+ComponentUpdate0=1
+ComponentIsDeviceSheet0=0
+ComponentLibIdentifierKind1=Library Name And Type
+ComponentLibraryIdentifier1=MY_LIB.DbLib/Конденсаторы$
+ComponentDesignItemID1=C0132
+ComponentSymbolReference1=C
+ComponentUpdate1=1
+ComponentIsDeviceSheet1=0
+ComponentLibIdentifierKind2=Library Name And Type
+ComponentLibraryIdentifier2=MY_LIB.DbLib/Конденсаторы$
+ComponentDesignItemID2=C0138
+ComponentSymbolReference2=C
+ComponentUpdate2=1
+ComponentIsDeviceSheet2=0
+ComponentLibIdentifierKind3=Library Name And Type
+ComponentLibraryIdentifier3=MY_LIB.DbLib/Конденсаторы$
+ComponentDesignItemID3=C0140
+ComponentSymbolReference3=C
+ComponentUpdate3=1
+ComponentIsDeviceSheet3=0
+ComponentLibIdentifierKind4=Library Name And Type
+ComponentLibraryIdentifier4=MY_LIB.DbLib/Конденсаторы$
+ComponentDesignItemID4=C0141
+ComponentSymbolReference4=C
+ComponentUpdate4=1
+ComponentIsDeviceSheet4=0
+ComponentLibIdentifierKind5=Library Name And Type
+ComponentLibraryIdentifier5=MY_LIB.DbLib/Конденсаторы$
+ComponentDesignItemID5=C0271
+ComponentSymbolReference5=C
+ComponentUpdate5=1
+ComponentIsDeviceSheet5=0
+ComponentLibIdentifierKind6=Library Name And Type
+ComponentLibraryIdentifier6=MY_LIB.DbLib/Микросхемы$
+ComponentDesignItemID6=U0002
+ComponentSymbolReference6=CP2102N-A02-GQFN24
+ComponentUpdate6=1
+ComponentIsDeviceSheet6=0
+ComponentLibIdentifierKind7=Library Name And Type
+ComponentLibraryIdentifier7=MY_LIB.DbLib/Микросхемы$
+ComponentDesignItemID7=U0003
+ComponentSymbolReference7=USBLC6-2SC6
+ComponentUpdate7=1
+ComponentIsDeviceSheet7=0
+ComponentLibIdentifierKind8=Library Name And Type
+ComponentLibraryIdentifier8=MY_LIB.DbLib/Микросхемы$
+ComponentDesignItemID8=U0004
+ComponentSymbolReference8=ISOW1432DFMR
+ComponentUpdate8=1
+ComponentIsDeviceSheet8=0
+ComponentLibIdentifierKind9=Library Name And Type
+ComponentLibraryIdentifier9=MY_LIB.DbLib/Переключатели$
+ComponentDesignItemID9=SA0001
+ComponentSymbolReference9=DS1040-01RT
+ComponentUpdate9=1
+ComponentIsDeviceSheet9=0
+ComponentLibIdentifierKind10=Library Name And Type
+ComponentLibraryIdentifier10=MY_LIB.DbLib/Разъёмы$
+ComponentDesignItemID10=XS0001
+ComponentSymbolReference10=USB4110-GF-A
+ComponentUpdate10=1
+ComponentIsDeviceSheet10=0
+ComponentLibIdentifierKind11=Library Name And Type
+ComponentLibraryIdentifier11=MY_LIB.DbLib/Разъёмы$
+ComponentDesignItemID11=XS0002
+ComponentSymbolReference11=DS1037_01_09F
+ComponentUpdate11=1
+ComponentIsDeviceSheet11=0
+ComponentLibIdentifierKind12=Library Name And Type
+ComponentLibraryIdentifier12=MY_LIB.DbLib/Резисторы$
+ComponentDesignItemID12=R0005
+ComponentSymbolReference12=R
+ComponentUpdate12=1
+ComponentIsDeviceSheet12=0
+ComponentLibIdentifierKind13=Library Name And Type
+ComponentLibraryIdentifier13=MY_LIB.DbLib/Резисторы$
+ComponentDesignItemID13=R0226
+ComponentSymbolReference13=R
+ComponentUpdate13=1
+ComponentIsDeviceSheet13=0
+ComponentLibIdentifierKind14=Library Name And Type
+ComponentLibraryIdentifier14=MY_LIB.DbLib/Резисторы$
+ComponentDesignItemID14=R0243
+ComponentSymbolReference14=R
+ComponentUpdate14=1
+ComponentIsDeviceSheet14=0
+ComponentLibIdentifierKind15=Library Name And Type
+ComponentLibraryIdentifier15=MY_LIB.DbLib/Резисторы$
+ComponentDesignItemID15=R0250
+ComponentSymbolReference15=R
+ComponentUpdate15=1
+ComponentIsDeviceSheet15=0
+ComponentLibIdentifierKind16=Library Name And Type
+ComponentLibraryIdentifier16=MY_LIB.DbLib/Резисторы$
+ComponentDesignItemID16=R0258
+ComponentSymbolReference16=R
+ComponentUpdate16=1
+ComponentIsDeviceSheet16=0
+ComponentLibIdentifierKind17=Library Name And Type
+ComponentLibraryIdentifier17=MY_LIB.DbLib/Резисторы$
+ComponentDesignItemID17=R0266
+ComponentSymbolReference17=R
+ComponentUpdate17=1
+ComponentIsDeviceSheet17=0
+ComponentLibIdentifierKind18=Library Name And Type
+ComponentLibraryIdentifier18=MY_LIB.DbLib/Светодиоды$
+ComponentDesignItemID18=HL0009
+ComponentSymbolReference18=LED_1C2A
+ComponentUpdate18=1
+ComponentIsDeviceSheet18=0
+ComponentLibIdentifierKind19=Library Name And Type
+ComponentLibraryIdentifier19=MY_LIB.DbLib/Светодиоды$
+ComponentDesignItemID19=HL0011
+ComponentSymbolReference19=LED_1C2A
+ComponentUpdate19=1
+ComponentIsDeviceSheet19=0
+ComponentLibIdentifierKind20=Library Name And Type
+ComponentLibraryIdentifier20=MY_LIB.DbLib/Тестовые точки$
+ComponentDesignItemID20=TP0002
+ComponentSymbolReference20=TestPoint
+ComponentUpdate20=1
+ComponentIsDeviceSheet20=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1048,6 +1394,175 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
+ParameterName0=ChipMaterial
+ParameterUpdate0=1
+ParameterName1=Color
+ParameterUpdate1=1
+ParameterName2=Comment
+ParameterUpdate2=1
+ParameterName3=CommentBase
+ParameterUpdate3=1
+ParameterName4=Component Kind
+ParameterUpdate4=1
+ParameterName5=ComponentLink1Description
+ParameterUpdate5=1
+ParameterName6=ComponentLink1URL
+ParameterUpdate6=1
+ParameterName7=ComponentType
+ParameterUpdate7=1
+ParameterName8=ContactForm
+ParameterUpdate8=1
+ParameterName9=CurrentRating
+ParameterUpdate9=1
+ParameterName10=Datasheet
+ParameterUpdate10=1
+ParameterName11=DatasheetRevision
+ParameterUpdate11=1
+ParameterName12=Description
+ParameterUpdate12=1
+ParameterName13=DiameterMm
+ParameterUpdate13=1
+ParameterName14=Dielectric
+ParameterUpdate14=1
+ParameterName15=ESKD_value
+ParameterUpdate15=1
+ParameterName16=Family
+ParameterUpdate16=1
+ParameterName17=ForwardVoltageMaxV
+ParameterUpdate17=1
+ParameterName18=ForwardVoltageTypicalV
+ParameterUpdate18=1
+ParameterName19=ID
+ParameterUpdate19=1
+ParameterName20=IntensityMinMcd
+ParameterUpdate20=1
+ParameterName21=IntensityTypicalMcd
+ParameterUpdate21=1
+ParameterName22=JunctionTemperatureMax
+ParameterUpdate22=1
+ParameterName23=JunctionTemperatureMin
+ParameterUpdate23=1
+ParameterName24=Library Reference
+ParameterUpdate24=1
+ParameterName25=Manufacturer
+ParameterUpdate25=1
+ParameterName26=MPN
+ParameterUpdate26=1
+ParameterName27=Notes
+ParameterUpdate27=1
+ParameterName28=OperatingTemperatureMax
+ParameterUpdate28=1
+ParameterName29=OperatingTemperatureMin
+ParameterUpdate29=1
+ParameterName30=Package
+ParameterUpdate30=1
+ParameterName31=Pin1_Name
+ParameterUpdate31=1
+ParameterName32=Pin2_Name
+ParameterUpdate32=1
+ParameterName33=Pin3_Name
+ParameterUpdate33=1
+ParameterName34=Pin4_Name
+ParameterUpdate34=1
+ParameterName35=Pin5_Name
+ParameterUpdate35=1
+ParameterName36=Pin6_Name
+ParameterUpdate36=1
+ParameterName37=Pin7_Name
+ParameterUpdate37=1
+ParameterName38=Pin8_Name
+ParameterUpdate38=1
+ParameterName39=Pin9_Name
+ParameterUpdate39=1
+ParameterName40=PinA1_B12_Name
+ParameterUpdate40=1
+ParameterName41=PinA12_B1_Name
+ParameterUpdate41=1
+ParameterName42=PinA4_B9_Name
+ParameterUpdate42=1
+ParameterName43=PinA5_Name
+ParameterUpdate43=1
+ParameterName44=PinA6_Name
+ParameterUpdate44=1
+ParameterName45=PinA7_Name
+ParameterUpdate45=1
+ParameterName46=PinA8_Name
+ParameterUpdate46=1
+ParameterName47=PinA9_B4_Name
+ParameterUpdate47=1
+ParameterName48=PinB5_Name
+ParameterUpdate48=1
+ParameterName49=PinB6_Name
+ParameterUpdate49=1
+ParameterName50=PinB7_Name
+ParameterUpdate50=1
+ParameterName51=PinB8_Name
+ParameterUpdate51=1
+ParameterName52=PinMapping
+ParameterUpdate52=1
+ParameterName53=PinSH_Name
+ParameterUpdate53=1
+ParameterName54=Positions
+ParameterUpdate54=1
+ParameterName55=Power
+ParameterUpdate55=1
+ParameterName56=Standard
+ParameterUpdate56=1
+ParameterName57=StorageTemperatureMax
+ParameterUpdate57=1
+ParameterName58=StorageTemperatureMin
+ParameterUpdate58=1
+ParameterName59=TemperatureReference
+ParameterUpdate59=1
+ParameterName60=TestCurrentMa
+ParameterUpdate60=1
+ParameterName61=Tolerance
+ParameterUpdate61=1
+ParameterName62=Type
+ParameterUpdate62=1
+ParameterName63=Value
+ParameterUpdate63=1
+ParameterName64=ViewingAngleDeg
+ParameterUpdate64=1
+ParameterName65=Voltage
+ParameterUpdate65=1
+ParameterName66=WavelengthNm
+ParameterUpdate66=1
+ModelTypeGroup0=PCBLIB
+ModelTypeUpdate0=1
+ModelType0=PCBLIB
+ModelName0=CAPC1608X90N
+ModelUpdate0=1
+ModelType1=PCBLIB
+ModelName1=CAPC2012X135N
+ModelUpdate1=1
+ModelType2=PCBLIB
+ModelName2=CONNFLY_DS1037_01_09F
+ModelUpdate2=1
+ModelType3=PCBLIB
+ModelName3=CONNFLY_DS1040_01RT
+ModelUpdate3=1
+ModelType4=PCBLIB
+ModelName4=CP2102N-A02-GQFN24_DS15
+ModelUpdate4=1
+ModelType5=PCBLIB
+ModelName5=LED_0805_1C2A
+ModelUpdate5=1
+ModelType6=PCBLIB
+ModelName6=RESC2012X70N
+ModelUpdate6=1
+ModelType7=PCBLIB
+ModelName7=ST_SOT23-6L
+ModelUpdate7=1
+ModelType8=PCBLIB
+ModelName8=TestPoint_Pad_D1.5mm
+ModelUpdate8=1
+ModelType9=PCBLIB
+ModelName9=TI_DFM0020A
+ModelUpdate9=1
+ModelType10=PCBLIB
+ModelName10=USB4110-GF-A_GCT
+ModelUpdate10=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
