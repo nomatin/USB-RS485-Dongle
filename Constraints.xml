@@ -1,7 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ConstraintsData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <FlattenedNetName2ConstraintNetId />
-  <CNets />
+  <FlattenedNetName2ConstraintNetId>
+    <FlattenedNetName2ConstraintNetIdEntry FlattenedNetName="USB_D_P" ConstraintNetId="bde4a594-0ea6-40e3-a854-fd14a7ab8b3f" />
+    <FlattenedNetName2ConstraintNetIdEntry FlattenedNetName="USB_D_N" ConstraintNetId="48a79e3e-dce8-4543-8e40-4c3f6acf0b32" />
+    <FlattenedNetName2ConstraintNetIdEntry FlattenedNetName="RS485_P" ConstraintNetId="138c7b8e-1630-4ff3-a869-823b9fdd51aa" />
+    <FlattenedNetName2ConstraintNetIdEntry FlattenedNetName="RS485_N" ConstraintNetId="8e509dcc-179c-4d06-b3b7-b8c2fe6e0f68" />
+    <FlattenedNetName2ConstraintNetIdEntry FlattenedNetName="D_P" ConstraintNetId="7c2367b5-8d3e-4b37-93c3-c791ce1fa1d5" />
+    <FlattenedNetName2ConstraintNetIdEntry FlattenedNetName="D_N" ConstraintNetId="61220b0f-04e9-40c1-89c7-e14047d9df65" />
+  </FlattenedNetName2ConstraintNetId>
+  <CNets>
+    <CNet Id="bde4a594-0ea6-40e3-a854-fd14a7ab8b3f">
+      <Constraints />
+      <ConstraintSets />
+      <ConstraintNodes />
+    </CNet>
+    <CNet Id="48a79e3e-dce8-4543-8e40-4c3f6acf0b32">
+      <Constraints />
+      <ConstraintSets />
+      <ConstraintNodes />
+    </CNet>
+    <CNet Id="138c7b8e-1630-4ff3-a869-823b9fdd51aa">
+      <Constraints />
+      <ConstraintSets />
+      <ConstraintNodes />
+    </CNet>
+    <CNet Id="8e509dcc-179c-4d06-b3b7-b8c2fe6e0f68">
+      <Constraints />
+      <ConstraintSets />
+      <ConstraintNodes />
+    </CNet>
+    <CNet Id="7c2367b5-8d3e-4b37-93c3-c791ce1fa1d5">
+      <Constraints />
+      <ConstraintSets />
+      <ConstraintNodes />
+    </CNet>
+    <CNet Id="61220b0f-04e9-40c1-89c7-e14047d9df65">
+      <Constraints />
+      <ConstraintSets />
+      <ConstraintNodes />
+    </CNet>
+  </CNets>
   <CNetClasses>
     <CNetClass Id="edf957bb-ded2-408a-a6e2-93fe823850dc" Name="All Nets" IsPredefined="true" Domain="2">
       <Constraints>
@@ -16,12 +54,52 @@
       <CNets />
     </CNetClass>
   </CNetClasses>
-  <CDifferentialPairs />
-  <CDifferentialPairClasses />
+  <CDifferentialPairs>
+    <CDifferentialPair Id="9e922ba8-8e38-4e90-8bed-0bdf1fd29084" Name="D_USB_D">
+      <Constraints>
+        <Constraint Id="3b40e2a6-002d-469a-978d-fd9923e10c93" Kind="33" Name="Schematic Impedance Constraint" Description="Impedance Constraint [Min = 81.00    Max = 99.00    ]" Scope1="InDifferentialPair('D_USB_D')" Scope2="All" Attributes="NETSCOPE=AnyNet|LAYERKIND=SameLayer|MINIMUM=81.00|MAXIMUM=99.00" />
+        <Constraint Id="13e50f98-586b-4594-a212-a3f99dc7a4e0" Kind="4" Name="Schematic Matched Net Lengths" Description="Matched Net Lengths [Tolerance = 149.606mil]" Scope1="InDifferentialPair('D_USB_D')" Scope2="All" Attributes="NETSCOPE=DifferentNets|LAYERKIND=SameLayer|TOLERANCE=149.6063mil|CHECKNETSINDIFFPAIR=TRUE|CHECKDIFFPAIRVSDIFFPAIR=FALSE|CHECKXSIGNALS=FALSE|CHECKOTHERS=FALSE" />
+      </Constraints>
+      <ConstraintSets />
+      <PositiveConstraintNet Id="bde4a594-0ea6-40e3-a854-fd14a7ab8b3f" />
+      <NegativeConstraintNet Id="48a79e3e-dce8-4543-8e40-4c3f6acf0b32" />
+    </CDifferentialPair>
+    <CDifferentialPair Id="092118ae-32de-4ee6-892b-1165cbc7c2b1" Name="D_RS485">
+      <Constraints>
+        <Constraint Id="2533fc2e-7c3a-4d92-97b1-be340da72440" Kind="33" Name="Schematic Impedance Constraint" Description="Impedance Constraint [Min = 108.0    Max = 132.0    ]" Scope1="InDifferentialPair('D_RS485')" Scope2="All" Attributes="NETSCOPE=AnyNet|LAYERKIND=SameLayer|MINIMUM=108.0|MAXIMUM=132.0" />
+        <Constraint Id="b39b9567-3c8b-4ff0-b535-cbd93e6bcd3a" Kind="4" Name="Schematic Matched Net Lengths" Description="Matched Net Lengths [Tolerance = 393.701mil]" Scope1="InDifferentialPair('D_RS485')" Scope2="All" Attributes="NETSCOPE=DifferentNets|LAYERKIND=SameLayer|TOLERANCE=393.7008mil|CHECKNETSINDIFFPAIR=TRUE|CHECKDIFFPAIRVSDIFFPAIR=FALSE|CHECKXSIGNALS=FALSE|CHECKOTHERS=FALSE" />
+      </Constraints>
+      <ConstraintSets />
+      <PositiveConstraintNet Id="138c7b8e-1630-4ff3-a869-823b9fdd51aa" />
+      <NegativeConstraintNet Id="8e509dcc-179c-4d06-b3b7-b8c2fe6e0f68" />
+    </CDifferentialPair>
+    <CDifferentialPair Id="7f10cc9b-b948-4779-9770-3fe428227a83" Name="D_D">
+      <Constraints>
+        <Constraint Id="3edb13ec-491f-4c7d-87d3-9286a5fd5131" Kind="33" Name="Schematic Impedance Constraint" Description="Impedance Constraint [Min = 81.00    Max = 99.00    ]" Scope1="InDifferentialPair('D_D')" Scope2="All" Attributes="NETSCOPE=AnyNet|LAYERKIND=SameLayer|MINIMUM=81.00|MAXIMUM=99.00" />
+        <Constraint Id="ed13cde0-eb86-43ae-9c04-7589a25a80a0" Kind="4" Name="Schematic Matched Net Lengths" Description="Matched Net Lengths [Tolerance = 149.606mil]" Scope1="InDifferentialPair('D_D')" Scope2="All" Attributes="NETSCOPE=DifferentNets|LAYERKIND=SameLayer|TOLERANCE=149.6063mil|CHECKNETSINDIFFPAIR=TRUE|CHECKDIFFPAIRVSDIFFPAIR=FALSE|CHECKXSIGNALS=FALSE|CHECKOTHERS=FALSE" />
+      </Constraints>
+      <ConstraintSets />
+      <PositiveConstraintNet Id="7c2367b5-8d3e-4b37-93c3-c791ce1fa1d5" />
+      <NegativeConstraintNet Id="61220b0f-04e9-40c1-89c7-e14047d9df65" />
+    </CDifferentialPair>
+  </CDifferentialPairs>
+  <CDifferentialPairClasses>
+    <CDifferentialPairClass Id="fbef0461-bc7d-467c-a3be-e2a027e4e68e" Name="All Differential Pairs" IsPredefined="true">
+      <Constraints />
+      <ConstraintSets />
+      <CDifferentialPairs />
+    </CDifferentialPairClass>
+  </CDifferentialPairClasses>
   <CPinPairs />
   <CxSigClasses />
   <CxNets />
-  <CXNetClasses />
+  <CXNetClasses>
+    <CXNetClass Id="5695dd8f-63d1-4928-ae02-1f6474d04f37" Name="All xNets" IsPredefined="true">
+      <Constraints />
+      <ConstraintSets />
+      <CXNets />
+    </CXNetClass>
+  </CXNetClasses>
   <ConstraintClearancesMatrix>
     <CCMFromScopes>
       <CCMFromScope Id="9babb9ef-a7e5-40e8-8a07-7e635e948ba0">
@@ -30,7 +108,10 @@
           <CCMToScope Id="a27aad5e-b2cc-4587-944e-06de3001c899" SetId="00000000-0000-0000-0000-000000000000">
             <ConstraintObject Id="00000000-0000-0000-0000-000000000000" />
             <DefaultConstraintClearancesMatrixConstraint Id="00000000-0000-0000-0000-000000000000" Kind="0" Name="" Description="" Scope1="" Scope2="" Attributes="" LayerType="0" LayerId="0" />
-            <CCMConstraints />
+            <CCMConstraints>
+              <CCMConstraint Id="e5ed0223-f145-4498-b140-b6b06c8f2286" Kind="0" Name="ClearanceAll_1" Description="Clearance Constraint [Clearance = 10mil]" Scope1="All And OnOutside" Scope2="All And OnOutside" Attributes="NETSCOPE=DifferentNets|LAYERKIND=SameLayer|GAP=10mil|GENERICCLEARANCE=10mil|IGNOREPADTOPADCLEARANCEINFOOTPRINT=FALSE|OBJECTCLEARANCES= " LayerType="1" LayerId="0" OverrideClearancePairs="" />
+              <CCMConstraint Id="917c1605-17dc-4ccf-be21-46620ee0e02f" Kind="0" Name="ClearanceAll_2" Description="Clearance Constraint [Clearance = 10mil]" Scope1="All And OnMid" Scope2="All And OnMid" Attributes="NETSCOPE=DifferentNets|LAYERKIND=SameLayer|GAP=10mil|GENERICCLEARANCE=10mil|IGNOREPADTOPADCLEARANCEINFOOTPRINT=FALSE|OBJECTCLEARANCES= " LayerType="2" LayerId="0" OverrideClearancePairs="" />
+            </CCMConstraints>
           </CCMToScope>
         </CCMToScopes>
       </CCMFromScope>
@@ -43,5 +124,5 @@
   <CClearancesMatrixSets />
   <CCMCreepageConstraints />
   <CImportedDirectiveUniqueIds />
-  <Settings UnitSystem="" />
+  <Settings UnitSystem="SI" />
 </ConstraintsData>
