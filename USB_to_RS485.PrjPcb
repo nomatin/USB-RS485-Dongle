@@ -51,6 +51,11 @@ XNetsDiscretesPrefixes=R, L, C, VD
 PrefsVaultGUID=
 PrefsRevisionGUID=
 
+[Release]
+ReleaseTarget=1
+ReleaseFolderPath=[OutputPath]
+ReleaseZipPath=[OutputPath][ProjectName].zip
+
 [Document1]
 DocumentPath=SCH\MAIN.SchDoc
 AnnotationEnabled=1
@@ -153,12 +158,25 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[GeneratedDocument1]
-DocumentPath=OUTPUT\USB_to_RS486.html
+[Document7]
+DocumentPath=PCB\PCB.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
 DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=HNIBIOBM
 
-[GeneratedDocument2]
-DocumentPath=OUTPUT\КД\USB_to_RS486.html
+[GeneratedDocument1]
+DocumentPath=OUTPUT\USB_to_RS485.html
 DItemRevisionGUID=
 
 [Parameter1]
@@ -382,6 +400,26 @@ Variant=[No Variations]
 OutputJobsCount=0
 ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
 ConfigurationType=Source
+
+[Configuration2]
+Name=Fabrication
+ParameterCount=0
+ConstraintFileCount=0
+ReleaseItemId=
+Variant=[No Variations]
+OutputJobsCount=0
+ContentTypeGUID=0C520D2A-E60C-11DF-B822-12313F0024A2
+ConfigurationType=Fabrication
+
+[Configuration3]
+Name=Assembly
+ParameterCount=0
+ConstraintFileCount=0
+ReleaseItemId=
+Variant=[No Variations]
+OutputJobsCount=0
+ContentTypeGUID=0D12F8DC-E60C-11DF-B822-12313F0024A2
+ConfigurationType=Assembly
 
 [Generic_SmartPDF]
 AutoOpenFile=0
@@ -1319,16 +1357,10 @@ UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
 ComponentLibraryIdentifier0=MY_LIB.DbLib/Микросхемы$
-ComponentDesignItemID0=U0002
-ComponentSymbolReference0=CP2102N-A02-GQFN24
+ComponentDesignItemID0=U0004
+ComponentSymbolReference0=ISOW1432DFMR
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
-ComponentLibIdentifierKind1=Library Name And Type
-ComponentLibraryIdentifier1=MY_LIB.DbLib/Микросхемы$
-ComponentDesignItemID1=U0004
-ComponentSymbolReference1=ISOW1432DFMR
-ComponentUpdate1=1
-ComponentIsDeviceSheet1=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1352,54 +1384,57 @@ ParameterName3=ComponentLink1Description
 ParameterUpdate3=1
 ParameterName4=ComponentLink1URL
 ParameterUpdate4=1
-ParameterName5=Datasheet
+ParameterName5=ComponentLink2Description
 ParameterUpdate5=1
-ParameterName6=DatasheetRevision
+ParameterName6=ComponentLink2URL
 ParameterUpdate6=1
-ParameterName7=Description
+ParameterName7=Datasheet
 ParameterUpdate7=1
-ParameterName8=ESKD_value
+ParameterName8=DatasheetRevision
 ParameterUpdate8=1
-ParameterName9=ID
+ParameterName9=Description
 ParameterUpdate9=1
-ParameterName10=JunctionTemperatureMax
+ParameterName10=ESKD_value
 ParameterUpdate10=1
-ParameterName11=JunctionTemperatureMin
+ParameterName11=HelpURL
 ParameterUpdate11=1
-ParameterName12=Library Reference
+ParameterName12=ID
 ParameterUpdate12=1
-ParameterName13=Manufacturer
+ParameterName13=JunctionTemperatureMax
 ParameterUpdate13=1
-ParameterName14=MPN
+ParameterName14=JunctionTemperatureMin
 ParameterUpdate14=1
-ParameterName15=Notes
+ParameterName15=Library Reference
 ParameterUpdate15=1
-ParameterName16=OperatingTemperatureMax
+ParameterName16=Manufacturer
 ParameterUpdate16=1
-ParameterName17=OperatingTemperatureMin
+ParameterName17=MPN
 ParameterUpdate17=1
-ParameterName18=Package
+ParameterName18=Notes
 ParameterUpdate18=1
-ParameterName19=StorageTemperatureMax
+ParameterName19=OperatingTemperatureMax
 ParameterUpdate19=1
-ParameterName20=StorageTemperatureMin
+ParameterName20=OperatingTemperatureMin
 ParameterUpdate20=1
-ParameterName21=TemperatureReference
+ParameterName21=Package
 ParameterUpdate21=1
-ParameterName22=Type
+ParameterName22=StorageTemperatureMax
 ParameterUpdate22=1
-ParameterName23=Value
+ParameterName23=StorageTemperatureMin
 ParameterUpdate23=1
-ParameterName24=Voltage
+ParameterName24=TemperatureReference
 ParameterUpdate24=1
+ParameterName25=Type
+ParameterUpdate25=1
+ParameterName26=Value
+ParameterUpdate26=1
+ParameterName27=Voltage
+ParameterUpdate27=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=CP2102N-A02-GQFN24_DS15
+ModelName0=TI_DFM0020A
 ModelUpdate0=1
-ModelType1=PCBLIB
-ModelName1=TI_DFM0020A
-ModelUpdate1=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
