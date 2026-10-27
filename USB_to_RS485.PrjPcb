@@ -74,7 +74,7 @@ GenerateClassCluster=0
 DocumentUniqueId=FXBRRBJG
 
 [Document2]
-DocumentPath=SCH\USB_to_UART.SchDoc
+DocumentPath=SCH\USBtoUART.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
