@@ -192,225 +192,300 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document9]
+DocumentPath=Drawings\PCB_СБ.PCBDwf
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=WTYDXSYL
+
+[Document10]
+DocumentPath=Drawings\PCB.PCBDwf
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=OXEZXIRK
+
+[Document11]
+DocumentPath=OUTPUT\КД\Преобразователь USB–RS485 XXXX.426477.001.xls
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [GeneratedDocument1]
 DocumentPath=OUTPUT\Design Rule Check - PCB.html
 DItemRevisionGUID=
 
 [GeneratedDocument2]
+DocumentPath=3D\PCB.DWG
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=3D\PCB.DXF
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=3D\PCB.step
+DItemRevisionGUID=
+
+[GeneratedDocument5]
 DocumentPath=OUTPUT\USB_to_RS485.html
 DItemRevisionGUID=
 
 [Parameter1]
-Name=sheet_out_name
-Value=Преобразователь USB–RS485 XXXX.426477.001 Э3
+Name=п_Утв_Р
+Value=Лыткин
 
 [Parameter2]
-Name=Вид_документа
+Name=п_Утв
 Value=
 
 [Parameter3]
-Name=Вид_документа_PCB
+Name=п_Т_Контр
 Value=
 
 [Parameter4]
-Name=Вид_документа_SCH
-Value=Схема электрическая принципиальная
+Name=п_Разраб_Р
+Value=Иванов
 
 [Parameter5]
-Name=Дата_изменения
+Name=п_Разраб
 Value=
 
 [Parameter6]
-Name=Дата_изменения_ВП
-Value=
+Name=п_Пров_Р
+Value=Смирнов
 
 [Parameter7]
-Name=Дата_изменения_ПЭ3
+Name=п_Пров
 Value=
 
 [Parameter8]
-Name=Дата_изменения_СП
-Value=
+Name=п_Н_контр_Р
+Value=Попов
 
 [Parameter9]
-Name=Код_документа
+Name=п_Н_контр
 Value=
 
 [Parameter10]
-Name=Код_документа_PCB
+Name=п_Доп_графа_Р
 Value=
 
 [Parameter11]
-Name=Код_документа_SCH
-Value=Э3
+Name=п_Доп_графа
+Value=
 
 [Parameter12]
-Name=Литера
+Name=Характер_работы
 Value=
 
 [Parameter13]
-Name=Литера2
+Name=Формат_PCB
 Value=
 
 [Parameter14]
-Name=Литера3
+Name=Указания_изменение_СП
 Value=
 
 [Parameter15]
-Name=Наименование
-Value=Преобразователь USB–RS485
+Name=Указания_изменение_ПЭ3
+Value=
 
 [Parameter16]
-Name=Наименование1
-Value=Преобразователь USB–RS485
+Name=Указания_изменение_ВП
+Value=
 
 [Parameter17]
-Name=Наименование2
+Name=Указания_изменение
 Value=
 
 [Parameter18]
-Name=Наименование3
+Name=Раздел_SCH
 Value=
 
 [Parameter19]
-Name=Наименование_PCB
+Name=Раздел_PCB
 Value=
 
 [Parameter20]
-Name=Номер_документа_изменение
-Value=
+Name=Раздел
+Value=Документация
 
 [Parameter21]
-Name=Номер_документа_изменение_ВП
+Name=Проект
 Value=
 
 [Parameter22]
-Name=Номер_документа_изменение_ПЭ3
+Name=Порядковый_номер_изменения_СП
 Value=
 
 [Parameter23]
-Name=Номер_документа_изменение_СП
+Name=Порядковый_номер_изменения_ПЭ3
 Value=
 
 [Parameter24]
-Name=Обозначение
-Value=XXXX.426477.001
+Name=Порядковый_номер_изменения_ВП
+Value=
 
 [Parameter25]
-Name=Обозначение_PCB
+Name=Порядковый_номер_изменения
 Value=
 
 [Parameter26]
-Name=Обозначение_Код
-Value=XXXX.426477.001 Э3
+Name=ПервПримен
+Value=XXXX.426477.001
 
 [Parameter27]
 Name=Перв.Примен.
 Value=XXXX.426477.001
 
 [Parameter28]
-Name=ПервПримен
-Value=XXXX.426477.001
+Name=Обозначение_Код
+Value=XXXX.426477.001 Э3
 
 [Parameter29]
-Name=Порядковый_номер_изменения
-Value=
+Name=Обозначение_PCB
+Value=XXXX.758765.001
 
 [Parameter30]
-Name=Порядковый_номер_изменения_ВП
-Value=
+Name=Обозначение
+Value=XXXX.426477.001
 
 [Parameter31]
-Name=Порядковый_номер_изменения_ПЭ3
+Name=Номер_документа_изменение_СП
 Value=
 
 [Parameter32]
-Name=Порядковый_номер_изменения_СП
+Name=Номер_документа_изменение_ПЭ3
 Value=
 
 [Parameter33]
-Name=Проект
+Name=Номер_документа_изменение_ВП
 Value=
 
 [Parameter34]
-Name=Раздел
-Value=Документация
-
-[Parameter35]
-Name=Раздел_PCB
+Name=Номер_документа_изменение
 Value=
 
+[Parameter35]
+Name=Наименование_PCB
+Value=Плата печатная
+
 [Parameter36]
-Name=Раздел_SCH
+Name=Наименование3
 Value=
 
 [Parameter37]
-Name=Указания_изменение
+Name=Наименование2
 Value=
 
 [Parameter38]
-Name=Указания_изменение_ВП
-Value=
+Name=Наименование1
+Value=Преобразователь USB–RS485
 
 [Parameter39]
-Name=Указания_изменение_ПЭ3
-Value=
+Name=Наименование
+Value=Преобразователь USB–RS485
 
 [Parameter40]
-Name=Указания_изменение_СП
+Name=Литера3
 Value=
 
 [Parameter41]
-Name=Формат_PCB
+Name=Литера2
 Value=
 
 [Parameter42]
-Name=Характер_работы
-Value=
+Name=Литера
+Value= 
 
 [Parameter43]
-Name=п_Доп_графа
-Value=
+Name=Код_документа_SCH
+Value=Э3
 
 [Parameter44]
-Name=п_Доп_графа_Р
+Name=Код_документа_PCB
 Value=
 
 [Parameter45]
-Name=п_Н_контр
+Name=Код_документа
 Value=
 
 [Parameter46]
-Name=п_Н_контр_Р
-Value=Попов
+Name=Дата_изменения_СП
+Value=
 
 [Parameter47]
-Name=п_Пров
+Name=Дата_изменения_ПЭ3
 Value=
 
 [Parameter48]
-Name=п_Пров_Р
-Value=Смирнов
+Name=Дата_изменения_ВП
+Value=
 
 [Parameter49]
-Name=п_Разраб
+Name=Дата_изменения
 Value=
 
 [Parameter50]
-Name=п_Разраб_Р
-Value=Иванов
+Name=Вид_документа_SCH
+Value=Схема электрическая принципиальная
 
 [Parameter51]
-Name=п_Т_Контр
+Name=Вид_документа_PCB
 Value=
 
 [Parameter52]
-Name=п_Утв
+Name=Вид_документа
 Value=
 
 [Parameter53]
-Name=п_Утв_Р
-Value=Лыткин
+Name=sheet_out_name
+Value=Преобразователь USB–RS485 XXXX.426477.001 Э3
+
+[Parameter54]
+Name=GOSTBOM_AllowNoPCB
+Value=0
+
+[Parameter55]
+Name=draft_pcb_out
+Value=Плата печатная XXXX.758765.001
+
+[Parameter56]
+Name=draft_ad_out
+Value=Преобразователь USB–RS485 XXXX.426477.001 СБ
 
 [Configuration1]
 Name=Sources

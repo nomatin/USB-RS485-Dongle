@@ -1,14 +1,15 @@
 Project Outputs Generation Report
 ---------------------------------
-Start Output Generation At 18:30:09 On 27/10/2026
+Start Output Generation At 13:01:08 On 06/11/2026
 
-Output: Electrical Rules Check
-Type  : ERC
-From  : Project [USB_to_RS485.PrjPcb]
-   Generated File[USB_to_RS485.html]
+Output: GOST BOM
+Type  : GOSTBOM
+From  : Variant [[No Variations]] of Project [USB_to_RS485.PrjPcb]
+   Generated File[Преобразователь USB–RS485 XXXX.426477.001 ПЭ3.xls]
+   Generated File[Преобразователь USB–RS485 XXXX.426477.001.xls]
 
 
-Files Generated   : 1
+Files Generated   : 2
 Documents Printed : 0
 
-Finished Output Generation At 18:30:10 On 27/10/2026
+Finished Output Generation At 13:01:15 On 06/11/2026
