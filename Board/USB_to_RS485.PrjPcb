@@ -244,22 +244,94 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [GeneratedDocument1]
-DocumentPath=OUTPUT\Design Rule Check - PCB.html
+DocumentPath=OUTPUT\Manufacturing\BOM\Bill of Materials-USB_to_RS485.xlsx
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=3D\PCB.DWG
+DocumentPath=OUTPUT\Design Rule Check - PCB.html
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=3D\PCB.DXF
+DocumentPath=OUTPUT\Manufacturing\NC Drill\PCB-NonPlated.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=3D\PCB.step
+DocumentPath=OUTPUT\Manufacturing\NC Drill\PCB-Plated.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument5]
+DocumentPath=OUTPUT\Manufacturing\NC Drill\PCB.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=3D\PCB.DWG
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=3D\PCB.DXF
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=OUTPUT\Manufacturing\Gerber\PCB.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=OUTPUT\Manufacturing\Gerber\PCB.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=OUTPUT\Manufacturing\Gerber\PCB.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=OUTPUT\Manufacturing\Gerber\PCB.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=OUTPUT\Manufacturing\Gerber\PCB.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=OUTPUT\Manufacturing\Gerber\PCB.GM
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=OUTPUT\Manufacturing\Gerber\PCB.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=OUTPUT\Manufacturing\Gerber\PCB.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=OUTPUT\Manufacturing\Gerber\PCB.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=OUTPUT\Manufacturing\Gerber\PCB.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=OUTPUT\PCB.html
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=OUTPUT\Manufacturing\NC Drill\PCB.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=OUTPUT\Manufacturing\Gerber\PCB.REP
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=3D\PCB.step
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=OUTPUT\Manufacturing\Pick Place\Pick Place for PCB.csv
+DItemRevisionGUID=
+
+[GeneratedDocument23]
 DocumentPath=OUTPUT\USB_to_RS485.html
 DItemRevisionGUID=
 
