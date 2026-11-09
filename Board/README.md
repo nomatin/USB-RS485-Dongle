@@ -10,6 +10,20 @@
 
 При разработке использовалась собственная библиотека компонентов [ESKD Altium Libraries](https://github.com/nomatin/ESKD-altium-libraries). Конструкторская документация подготовлена с использованием [GOSTBOM-Fixes](https://github.com/nomatin/GOSTBOM-Fixes).
 
+## Изображения
+
+**3D-модель платы**
+
+![3D-модель платы](Assets/pcb-3d-model.png)
+
+**Верхний слой (Top Layer + Silkscreen)**
+
+![Верхний слой платы](Assets/pcb-top-layer.png)
+
+**Нижний слой (Bottom Layer + Silkscreen)**
+
+![Нижний слой платы](Assets/pcb-bottom-layer.png)
+
 ## Исходные файлы
 
 - [Проект Altium](USB_to_RS485.PrjPcb)
