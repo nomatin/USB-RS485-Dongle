@@ -26,14 +26,6 @@
 
 ![3D-модель платы](Board/Assets/pcb-3d-model.png)
 
-**Верхний слой (Top Layer + Silkscreen)**
-
-![Верхний слой платы](Board/Assets/pcb-top-layer.png)
-
-**Нижний слой (Bottom Layer + Silkscreen)**
-
-![Нижний слой платы](Board/Assets/pcb-bottom-layer.png)
-
 ## Корпус
 
 **Сборка и разборка корпуса**

@@ -12,10 +12,6 @@
 
 ## Изображения
 
-**3D-модель платы**
-
-![3D-модель платы](Assets/pcb-3d-model.png)
-
 **Верхний слой (Top Layer + Silkscreen)**
 
 ![Верхний слой платы](Assets/pcb-top-layer.png)
