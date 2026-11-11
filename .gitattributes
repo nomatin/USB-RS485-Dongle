@@ -1,0 +1,19 @@
+# Normalize text in the repository and use LF for Markdown and Git metadata.
+* text=auto
+*.md text eol=lf
+.gitattributes text eol=lf
+.gitignore text eol=lf
+LICENSE text eol=lf
+
+# Altium Designer and T-FLEX CAD binary files.
+*.[Pp][Cc][Bb][Dd][Oo][Cc] binary
+*.[Ss][Cc][Hh][Dd][Oo][Cc] binary
+*.[Pp][Cc][Bb][Dd][Ww][Ff] binary
+*.[Gg][Rr][Bb] binary
+
+# Binary documents and images.
+*.[Pp][Dd][Ff] binary
+*.[Xx][Ll][Ss] binary
+*.[Xx][Ll][Ss][Xx] binary
+*.[Gg][Ii][Ff] binary
+*.[Pp][Nn][Gg] binary
